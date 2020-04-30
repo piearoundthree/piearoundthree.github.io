@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /*
 	Dimension by HTML5 UP
@@ -139,14 +140,25 @@ input, select, textarea {
 
 		}
 
-	body, input, select, textarea {
-		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+	textarea {
+		color: #211200;
+		font-family: "Press Start 2P", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
 	}
+	h1 {
+		color: #211200;
+		font-family: "Press Start 2P", sans-serif;
+		/* font-weight: 300; */
+		font-size: 1rem;
+		line-height: 1.65;
+	}
 
+	body, input, select {
+		color: #211200;
+		font-family: "Source Sans Pro", sans-serif;
+	}
 	a {
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -162,7 +174,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: #211200;
 		font-weight: 600;
 	}
 
@@ -171,11 +183,12 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		margin: 0.5rem;
+		color: #371e00;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+	h2, h3, h4, h5, h6 {
+		color: #371e00;
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
@@ -401,7 +414,7 @@ input, select, textarea {
 		transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 4px;
-		border: solid 1px #ffffff;
+		border: solid 1px #603c30;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -426,7 +439,7 @@ input, select, textarea {
 		select:focus,
 		textarea:focus {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
+			border-color: #603c30;
 			box-shadow: 0 0 0 1px #ffffff;
 		}
 
@@ -581,7 +594,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 4px;
-		border: solid 1px #ffffff;
+		border: solid 1px #603c30;
 		margin-bottom: 2rem;
 		padding: 1.5em;
 	}
